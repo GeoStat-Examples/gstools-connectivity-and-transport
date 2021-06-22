@@ -1,0 +1,13 @@
+|------------------ Written with ogs5py ------------------|
+#PROCESS
+  $PCS_TYPE
+   GROUNDWATER_FLOW
+  $NUM_TYPE
+   NEW
+  $TIM_TYPE
+   STEADY
+#PROCESS
+  $PCS_TYPE
+   MASS_TRANSPORT
+#STOP
+|-- Written with ogs5py (1.1.1) on: 2021-06-22_21-27-07 --|

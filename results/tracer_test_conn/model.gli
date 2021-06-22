@@ -1,0 +1,73 @@
+|------------------ Written with ogs5py ------------------|
+#POINTS
+0 -1.0 0.0 -5.0
+1 9.0 0.0 -5.0
+2 9.0 0.0 -1.0
+3 -1.0 0.0 -1.0
+4 0.0 0.0 -2.0
+5 0.0 0.0 -4.0
+6 2.5 0.0 -1.0
+7 2.5 0.0 -5.0
+8 5.5 0.0 -1.0
+9 5.5 0.0 -5.0
+10 8.5 0.0 -1.0
+11 8.5 0.0 -5.0
+#POLYLINE
+  $NAME
+   boundary
+  $POINTS
+   0
+   1
+   2
+   3
+   0
+#POLYLINE
+  $NAME
+   bottom_BC
+  $POINTS
+   0
+   1
+#POLYLINE
+  $NAME
+   right_BC
+  $POINTS
+   1
+   2
+#POLYLINE
+  $NAME
+   top_BC
+  $POINTS
+   2
+   3
+#POLYLINE
+  $NAME
+   left_BC
+  $POINTS
+   3
+   0
+#POLYLINE
+  $NAME
+   source
+  $POINTS
+   4
+   5
+#POLYLINE
+  $NAME
+   ow1
+  $POINTS
+   6
+   7
+#POLYLINE
+  $NAME
+   ow2
+  $POINTS
+   8
+   9
+#POLYLINE
+  $NAME
+   ow3
+  $POINTS
+   10
+   11
+#STOP
+|-- Written with ogs5py (1.1.1) on: 2021-06-22_21-27-07 --|

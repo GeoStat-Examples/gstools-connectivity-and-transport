@@ -1,0 +1,21 @@
+|------------------ Written with ogs5py ------------------|
+#SOURCE_TERM
+  $PCS_TYPE
+   GROUNDWATER_FLOW
+  $PRIMARY_VARIABLE
+   HEAD
+  $GEO_TYPE
+   POLYLINE bottom_BC
+  $DIS_TYPE
+   CONSTANT_NEUMANN 0.0
+#SOURCE_TERM
+  $PCS_TYPE
+   GROUNDWATER_FLOW
+  $PRIMARY_VARIABLE
+   HEAD
+  $GEO_TYPE
+   POLYLINE top_BC
+  $DIS_TYPE
+   CONSTANT_NEUMANN 0.0
+#STOP
+|-- Written with ogs5py (1.1.1) on: 2021-06-22_21-27-07 --|
