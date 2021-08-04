@@ -1,5 +1,6 @@
 [![GS-Frame](https://img.shields.io/badge/github-GeoStat_Framework-468a88?logo=github&style=flat)](https://github.com/GeoStat-Framework)
 [![Gitter](https://badges.gitter.im/GeoStat-Examples/community.svg)](https://gitter.im/GeoStat-Examples/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5159577.svg)](https://doi.org/10.5281/zenodo.5159577)
 
 # Impact of connectivity on contaminant transport
 
@@ -11,7 +12,7 @@ low regions, we make use of the transformation presented by Zinn & Harvey:
 
 > Zinn, B. and Harvey, C. F.:
 > When good statistical models of aquifer heterogeneity go bad:
-> A comparison of flow, dispersion, and mass transferin connected and
+> A comparison of flow, dispersion, and mass transfer in connected and
 > multivariate Gaussian hydraulic conductivity fields,
 > Water Resour. Res., 39, 2003.
 
