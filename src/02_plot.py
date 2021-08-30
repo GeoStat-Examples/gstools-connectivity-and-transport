@@ -2,8 +2,7 @@
 """
 Transport example using GSTools.
 
-Plotting the plumes at t=15d and calculating the breakthrough curves at
-the observation wells.
+Plotting the plumes at t=15d.
 
 Authors: Alraune Zech and Sebastian Müller
 """
@@ -67,8 +66,8 @@ ax_fld["high"].set_xlabel("x / m")
 
 c1 = fig.colorbar(im, orientation="horizontal", cax=cax1, shrink=0.2, pad=0.5)
 c2 = fig.colorbar(tri, orientation="horizontal", cax=cax2, shrink=0.2, pad=0.5)
-c1.ax.set_xlabel(r"transmissivity / m s$^{-1}$")
-c2.ax.set_xlabel(r"concentration")
+c1.ax.set_xlabel(r"Transmissivity / m s$^{-1}$")
+c2.ax.set_xlabel(r"Concentration")
 
 # to actually determine the labels, draw the figure
 fig.canvas.draw()
