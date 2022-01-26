@@ -66,7 +66,7 @@ ax_fld["high"].set_xlabel("x / m")
 
 c1 = fig.colorbar(im, orientation="horizontal", cax=cax1, shrink=0.2, pad=0.5)
 c2 = fig.colorbar(tri, orientation="horizontal", cax=cax2, shrink=0.2, pad=0.5)
-c1.ax.set_xlabel(r"Transmissivity / m s$^{-1}$")
+c1.ax.set_xlabel(r"Transmissivity / m$^{2}$ s$^{-1}$")
 c2.ax.set_xlabel(r"Concentration")
 
 # to actually determine the labels, draw the figure
